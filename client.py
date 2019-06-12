@@ -12,7 +12,8 @@ def Main():
     # connect to server on local computer 
     s.connect((host,port)) 
     # message you send to server 
-    message = "shaurya says geeksforgeeks"
+    # message = "add:I want to do ....."
+    message = "edit:1:Change into"
     while True: 
         # message sent to server 
         s.send(message.encode('ascii')) 
